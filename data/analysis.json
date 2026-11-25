@@ -1,0 +1,2057 @@
+{
+  "as_of": "2026-11-25",
+  "window_start": "2025-11-25",
+  "recent_cutoff": "2026-05-26",
+  "nihr_metadata": {
+    "title": "NIHR Research and Training Awards Dataset",
+    "description": "<p style=\"\">This dataset contains the NIHR funded portfolio research and training awards; it has been consolidated with other datasets so the user does not need to complete their own cross referencing. These datasets are:               <br> </p><ul><li>NIHR Funded Portfolio<br></li><li>NIHR Award Holders<br></li><li>NIHR Award HRCS Health Categories Coding and Apportionment<br></li><li>NIHR Award HRCS Research Activities Coding and Apportionment <br></li><li>NIHR Curated Portfolio<br></li></ul><p><br>This is updated quarterly, and the data in this edition are up to date as of the 31st March 2026.<br></p>",
+    "theme": [
+      "Curated Portfolio",
+      "Global Health"
+    ],
+    "keyword": [
+      "Research Programme",
+      "HRCS",
+      "RAC",
+      "Research Activity",
+      "Health Category",
+      "ORCiD",
+      "Award Holder",
+      "Chief Investigator",
+      "Joint Lead Award Holder",
+      "Antimicrobial Resistance",
+      "COVID-19",
+      "Dementia",
+      "Diabetes",
+      "Multiple Long-Term Conditions",
+      "Obesity",
+      "Social Care"
+    ],
+    "license": "Open Government Licence v3.0",
+    "license_url": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "language": "en",
+    "modified": "2026-10-29T15:50:11.382000+00:00",
+    "publisher": "NIHR",
+    "references": null,
+    "attributions": null,
+    "update_frequency": null,
+    "bbox": {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              1.718002986162901,
+              57.478071986697614
+            ],
+            [
+              -6.61920603364706,
+              57.478071986697614
+            ],
+            [
+              -6.61920603364706,
+              50.25993496645242
+            ],
+            [
+              1.718002986162901,
+              50.25993496645242
+            ],
+            [
+              1.718002986162901,
+              57.478071986697614
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {}
+    },
+    "data_processed": "2026-10-27T17:16:46.051000+00:00",
+    "federated": false,
+    "geographic_reference": [
+      "world_gb"
+    ],
+    "geographic_reference_auto": true,
+    "geometry_types": [
+      "Point"
+    ],
+    "metadata_languages": [
+      "en"
+    ],
+    "metadata_processed": "2026-10-29T15:50:31.171000+00:00",
+    "modified_updates_on_data_change": true,
+    "modified_updates_on_metadata_change": true,
+    "parent_domain": null,
+    "records_count": 11385,
+    "shared_catalog": null,
+    "source_dataset": null,
+    "source_domain": null,
+    "source_domain_address": null,
+    "source_domain_title": null,
+    "territory": [
+      "United Kingdom"
+    ],
+    "timezone": null
+  },
+  "source_requests": [
+    {
+      "url": "https://nihr.opendatasoft.com/api/explore/v2.1/catalog/datasets/nihr-summary-view",
+      "resolved_url": "https://nihr.opendatasoft.com/api/explore/v2.1/catalog/datasets/nihr-summary-view",
+      "retrieved_at": "2026-11-25T18:44:23.597669+00:00",
+      "sha256": "2ab45ab7bef7f32617c3029150fd12b8519849acbad0534a98b37d3c16bd1e3c",
+      "bytes": 10314,
+      "cache_file": "nihr-metadata.json"
+    },
+    {
+      "url": "https://nihr.opendatasoft.com/api/explore/v2.1/catalog/datasets/nihr-summary-view/exports/json?where=start_date+%3E%3D+date%272025-11-25%27",
+      "resolved_url": "https://nihr.opendatasoft.com/api/explore/v2.1/catalog/datasets/nihr-summary-view/exports/json?where=start_date+%3E%3D+date%272025-11-25%27",
+      "retrieved_at": "2026-11-25T18:44:34.082102+00:00",
+      "sha256": "4a7c7dba3f64459e34dd56860691ace1065119525e9a2373b02174df281199c7",
+      "bytes": 1918735,
+      "cache_file": "nihr-awards-2025-11-25.json"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=NIHR501825+OR+NIHR510518+OR+NIHR172122+OR+NIHR209472+OR+NIHR504024+OR+NIHR175280+OR+NIHR501826&format=json&countTotal=true&pageSize=100",
+      "resolved_url": "https://clinicaltrials.gov/api/v2/studies?query.term=NIHR501825+OR+NIHR510518+OR+NIHR172122+OR+NIHR209472+OR+NIHR504024+OR+NIHR175280+OR+NIHR501826&format=json&countTotal=true&pageSize=100",
+      "retrieved_at": "2026-11-25T18:44:38.145349+00:00",
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+      "bytes": 31,
+      "cache_file": "ctgov-6dad3978d25a.json"
+    },
+    {
+      "url": "https://www.isrctn.com/api/query/format/default?q=NIHR501825+OR+NIHR510518+OR+NIHR172122+OR+NIHR209472+OR+NIHR504024+OR+NIHR175280+OR+NIHR501826&limit=100",
+      "resolved_url": "https://www.isrctn.com/api/query/format/default?q=NIHR501825+OR+NIHR510518+OR+NIHR172122+OR+NIHR209472+OR+NIHR504024+OR+NIHR175280+OR+NIHR501826&limit=100",
+      "retrieved_at": "2026-11-25T18:44:41.547515+00:00",
+      "sha256": "9102345f60a6769cd03fb92d5a00f71c6bbfb597ba699e5f98161f95f657dfc6",
+      "bytes": 77,
+      "cache_file": "isrctn-6dad3978d25a.xml"
+    }
+  ],
+  "counts": {
+    "nihr_catalogue_records": 11385,
+    "award_rows_pulled": 348,
+    "award_rows_kept": 7,
+    "award_rows_dropped": 341,
+    "distinct_organisations": 5,
+    "published_leads": 5,
+    "award_total_gbp": 21334769.55,
+    "ctgov_records_returned": 0,
+    "isrctn_records_returned": 0,
+    "registry_records_linked": 0
+  },
+  "drop_reasons": {
+    "Training award, not a research project": 130,
+    "No explicit oncology term in the project title": 197,
+    "Follow-up, synthesis or consortium rather than a discrete new trial": 3,
+    "No explicit new interventional trial signal under the stated rule": 7,
+    "No valid UK host postcode": 3,
+    "Outside the past-year project-start window": 1
+  },
+  "excluded_awards": [
+    {
+      "award_id": "GHR CADA-R4-004",
+      "title": "Training Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR305666",
+      "title": "Improving recruitment rates and participant diversity in clinical trials testing treatments for psychosis: a mixed methods study",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR305956",
+      "title": "Predicting the Outcome of Pneumonia for People who Aspirate (PrOPPA) Study: Predicting the outcome of pneumonia for individuals who aspirate when eating and drinking as a result of oropharyngeal dysphagia:- determining the validity, reliability and acceptability of a prognostic clinical prediction model to support clinical management.",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306048",
+      "title": "Exploring the risk of aspiration and its influence on oral feeding decision-making in infants receiving Nasal High Flow respiratory support (NHF).",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306309",
+      "title": "Exploring how smoking cessation services delivered in pregnancy in England can produce equity promoting outcomes for underserved groups.",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306398",
+      "title": "Developing equitable, personalised community rehabilitation interventions for people with peripheral artery disease.",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306477",
+      "title": "Do the healthcare interventions we provide for hearing impairment and speech, language and communication difficulties in children born with cleft palate +/- lip impact on educational outcomes?",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306548",
+      "title": "A Proactive Integrated apprOach to ideNtifying and trEating people with COPD and “trEatable traits” in primary caRe (PIONEER COPD)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306570",
+      "title": "A Complex intervention to Address Ethnic and Socioeconomic inequalities in Access to Elective and Acute procedural caRe for Coronary Artery Disease: CAESAR-CAD",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306571",
+      "title": "The role of artificial intelligence in improving the diagnosis of prostate cancer",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306582",
+      "title": "Developing safe conversational artificial intelligence for specialist NHS neurology services",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500016",
+      "title": "Childbirth, choice & climate change: reducing emissions while preserving pregnant people's autonomy",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR500308",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500492",
+      "title": "A-PATH: Adapting Psychological Advocacy Towards Healing for older women affected by domestic abuse",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR500582",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500728",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500882",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500953",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500954",
+      "title": "Upscaling implementation of The Illicit Project UK",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR500963",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR501060",
+      "title": "Realist evaluation of drug education for 13-15 year olds in alternative education and deprived areas",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR501426",
+      "title": "Automating the diagnosis of small bowel biopsies: plugging the gap of gluten sensitivity",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR501957",
+      "title": "The Brain Tumour Novel Therapeutics Consortium",
+      "reason": "Follow-up, synthesis or consortium rather than a discrete new trial"
+    },
+    {
+      "award_id": "NIHR503225",
+      "title": "Investigating Feeding Outcomes and Improving Patient Care for Children with Long-Term Ventilation",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR503467",
+      "title": "ACCelerate - Refinement and implementation of a rapid urine test for the detection of adrenal cancer",
+      "reason": "No explicit new interventional trial signal under the stated rule"
+    },
+    {
+      "award_id": "NIHR503712",
+      "title": "Transforming Treatment for Young People with Tic Disorders: Scalable, Evidence-Based Digital Therapy",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR504338",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR505305",
+      "title": "Developing and validating ‘Sia’: a responsible AI platform for dementia prediction",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR505311",
+      "title": "Finding and Adapting methods of Inclusive Research (FAIR)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR505393",
+      "title": "The GALEAS™ Bladder genomic urine test for de-escalating surveillance in bladder cancer patients",
+      "reason": "No explicit new interventional trial signal under the stated rule"
+    },
+    {
+      "award_id": "NIHR505717",
+      "title": "CORTEX Complication Recognition Through EHR and eXplainable AI",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR505807",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR505822",
+      "title": "Bridging the Gap: Making MS Diagnosis and Care Equitable through AI-Driven MRI Analysis in the NHS",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR506200",
+      "title": "Revitalise: Precise Robotic Delivery of Retinal Intravascular Therapies",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR506237",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR506762",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507040",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507797",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508637",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508650",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508655",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508752",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508799",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508970",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509225",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509286",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509297",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509389",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509413",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509503",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509621",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509626",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509789",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509832",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509876",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509887",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR510135",
+      "title": "Clinical Validation of Resynk: Feasibility and Acceptability in Stroke Rehab from Hospital to Home",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510214",
+      "title": "AI-powered, faster, fairer Care Act assessments, reducing health and social inequalities",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510233",
+      "title": "Early detection of heart valve disease to prevent multi-morbidity - usability testing in pharmacies",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510260",
+      "title": "Economic evaluation of Suvera’s virtual clinics for managing long-term conditions in primary care",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510275",
+      "title": "Path Active: A Wearable System to Prevent Diabetes Foot Ulcers and the Burden on Community Teams",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510398",
+      "title": "Digital Therapy to Improve Stroke Communication, Prevent Co-Morbidities and Ease NHS Pressure",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510591",
+      "title": "Does Nelli for adults with Epilepsy and ID reduce admissions and workload and improve diagnosis",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510703",
+      "title": "CrossSense: feasibility for targeting psychosocial pathways to prevent multimorbidity in dementia",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510878",
+      "title": "Stopping pain’s spiral: Evaluating digital prevention of mental-health decline in chronic pain",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510879",
+      "title": "10-minute point-of-care diagnostic for UTIs in care-homes to guide intervention before deterioration",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510915",
+      "title": "Feasibility study of PuntoCare: Digital support for dementia and MCI in NHS care settings",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517310",
+      "title": "Quantum PHIP Benchmarking for Clinical Translation",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517510",
+      "title": "Structured-light Photonic-chip-based OCT",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517860",
+      "title": "Quantum Singlet Oxygen Sensing for Photodynamic Therapy Dosimetry (Q-SOS)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR150375",
+      "title": "Weight Reduction in Asthma Programme with Tirzepatide (WRAPT): clinical efficacy and mechanisms of action.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR163709",
+      "title": "A Simplified screen-and-Treat-all prOphylaxis approach in Pregnant women to stop Hepatitis B Virus mother-to-child transmission in Malawi and The Gambia (STOP-HBV)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR164416",
+      "title": "Effective workplace learning environments in care homes: Developing, implementing and evaluating a model and implementation toolkit",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR165852",
+      "title": "DIALS – DIAgnosis of Liver diseaSe in primary care",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR167846",
+      "title": "The Impact of Housing Quality Retrofits on the Health and Well-Being of Older People: An Analysis of the English Longitudinal Study of Ageing",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR168836",
+      "title": "A mixed methods realist evaluation of the MECSH parenting intervention investigating inequalities in access, engagement, retention and outcomes for birthing and non-birthing parents from Black and Asian communities in England.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR168885",
+      "title": "A phase 2 randomised clinical trial to evaluate the efficacy of anakinra in patients with the acute respiratory distress syndrome (AnakARDS)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR168901",
+      "title": "Trauma-focused therapy in early psychosis: A randomised controlled trial assessing the efficacy and mechanisms of action of Eye Movement Desensitization and Reprocessing for psychosis (EMDRp) in comparison to treatment as usual in Early Intervention Settings",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR169106",
+      "title": "Randomised Placebo Controlled Trial of Intravenous Iron for Improving Physical Performance and Quality of Life in patients with Chronic Limb-Threatening Ischaemia and Anaemia Following Revascularisation",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR169358",
+      "title": "Timing of Umbilical Cord Clamping for Preterm Infants Needing Resuscitation at Birth: The Opticord trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR169738",
+      "title": "PanacEa Trial: Clinical and Cost-Effectiveness of Pain Management Programme for Endometriosis versus Standard Care",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR169899",
+      "title": "Mortality, Disease Progression and Metastasis in the NIHR HTA Prostate testing for cancer and Treatment (ProtecT) trial: median 20-year follow up",
+      "reason": "Follow-up, synthesis or consortium rather than a discrete new trial"
+    },
+    {
+      "award_id": "NIHR170105",
+      "title": "Second person checking of medication dispensing, preparation and administration in hospitals - what works for whom, in what contexts, and why? The CHECKMED realist evaluation study",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170324",
+      "title": "PINC2: A pragmatic, multi-centre, parallel-arm, double-blind, placebo-controlled, randomised controlled trial to evaluate the clinical effectiveness, cost effectiveness and safety of exogenous luteal phase progesterone support in natural menstrual cycles in couples with unexplained infertility.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170347",
+      "title": "INGEST: dIscontinuing or continuiNG thickEned fluidS Trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170512",
+      "title": "Psychosocial interventions for military personnel with PTSD: A network meta-analysis",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170575",
+      "title": "A randomised trial of relugolix combination therapy versus usual medical treatment in the medical management of heavy menstrual bleeding (RESPONSIBLE)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170973",
+      "title": "Co-production, refinement and evaluation of a model of psychosocial peer support and liaison with alcohol, liver and mental health services to improve quality of life and clinical outcomes for people with alcohol-related liver disease (CALM study)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR171615",
+      "title": "Listening with Unilateral versus bilateral Cochlear Implants in Adults (LUCIA): A randomised controlled trial comparing simultaneous bilateral versus unilateral cochlear implantation in adults with post-lingual severe-profound hearing loss",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174105",
+      "title": "Identifying and evaluating policy mechanisms to reduce ultra-processed food consumption in the UK: health, equity and economic impacts (The UPForesight Project)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174857",
+      "title": "Health Effects fRom Infection sequelae: Tailoring services and Advancing GuidancE (HERITAGE) in Long Covid and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174875",
+      "title": "GOLDFINCH (Fiscal INCentives for Health through UPF reduction)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR175072",
+      "title": "Lowering Adverse outcomes in Pilonidal sinus: Trial of fIbrin glue vs Minimal Excision. [PITSTOP2]",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR177941",
+      "title": "A Rapid Evaluability Assessment of the Future of Prevention Programme in adult social care services (REAP)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR206684",
+      "title": "Developing a perinatal mental health peer support intervention to address the needs of women with experience of intimate partner violence (IPV): a qualitative study",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR207682",
+      "title": "Meeting the needs of children and young people (0-18) with Special Educational Needs and/or Disabilities: modelling the Allied Health Professional therapy workforce within integrated children’s services.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR207915",
+      "title": "An open-label, multi-centre, randomised controlled trial to assess the efficacy, safety and utility of automated insulin delivery (AID) in people with type 2 diabetes and sub-optimal glycaemia undergoing haemodialysis",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR207980",
+      "title": "Long-term Follow-Up for chronic rhinosinusitis patients in the MACRO Trial: MACRO PLUS",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR207989",
+      "title": "Sustaining the introduction of health and well-being coaches in multi-disciplinary primary care teams to support underserved populations: Developing recommendations and guidance for patients, coaches, and primary care staff",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208161",
+      "title": "Supporting airway clearance in the community for people living with a neuromuscular disorder",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208182",
+      "title": "EMPoWER Effectiveness of a Multi-modal intervention to Promote Independence and WEllbeing among oldeR adults of South Asian heritage: a feasibility study",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208366",
+      "title": "Extending the Mental Health Intervention for Children with Epilepsy (MICE) Programme",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208610",
+      "title": "Supporting Reunification: Learning from Applied Research",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208611",
+      "title": "Older men's experiences of self-neglect and hoarding and engagement with local authority social care services and support (OMESH study)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208632",
+      "title": "Developing reproductive health support to prevent early and unplanned pregnancy among care experienced young people",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208762",
+      "title": "Improving recognition and treatment of adult onset type 1 diabetes though though rational cost-effective classification biomarker testing",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208806",
+      "title": "Comparative efficacy and reproductive outcomes after fertility-sparing treatment for endometrial hyperplasia, with or without atypia, and early endometrial cancer: synthesis of the evidence and network meta-analysis",
+      "reason": "Follow-up, synthesis or consortium rather than a discrete new trial"
+    },
+    {
+      "award_id": "NIHR208816",
+      "title": "Montelukast and Neuropsychiatric Events: A target trial emulation to quantify adverse reactions and measure the impact of regulatory action",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209111",
+      "title": "Socially Connected SmartCare at home: Enhancing independent living for people living with dementia through low-cost technology",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209114",
+      "title": "Adapting the Parent Report of Children’s Abilities-Revised (PARCA-R) questionnaire: Improving research inclusion and access to healthcare services for families with limited English literacy.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209135",
+      "title": "Improving the Experience of Care for people prescribed Medications with a risk of Dependence or withdrawal in prison: The ECMD-prisons study.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209137",
+      "title": "Co-evolving proactive telecare in practice",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209169",
+      "title": "Co-design of a toolkit for Integrated Care Systems to support primary care healthcare professionals to deprescribe unnecessary antidepressants: A behavioural science realist approach",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209189",
+      "title": "Effect of immuno-nutrition on markers of sarcopenia and systemic inflammation in a haemodialysis population: a feasibility randomised controlled trial.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209194",
+      "title": "Measuring and Assessing the Risk of hospital-associated Venous thromboEmbolism in peopLe admitted to Mental Health hospitals (MARVEL-MH)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209200",
+      "title": "Qualitative exploration of the specific sexual and relational support needs of young people with Inflammatory Bowel Disease: co-design of an evidence-based, prototype intervention",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209233",
+      "title": "The impact and cost-effectiveness of enhanced primary care for people experiencing homelessness in Liverpool",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209251",
+      "title": "Improving safety and TReatment precision for Acute COPD Exacerbations: Feasibility trial of a primary care assessment pathway using point-of-care testing (TRACE).",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209258",
+      "title": "Developing a prototype toolkit for the practical and effective evaluation of the integrated care delivered by neighbourhood multi-disciplinary teams for children and young people",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209260",
+      "title": "Culturally adapted psychoeducation for African and Caribbean persons with bipolar disorder in the UK: A feasibility study",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209293",
+      "title": "Development and clinical validation of a 2nd generation rapid blood test with improved usability and performance for identification of stroke patients eligible for emergency thrombectomy treatment.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209366",
+      "title": "Envirolieve final phase development, regulatory approval and clinical evaluation: reducing the carbon impact of Entonox through patient-centred innovation.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209367",
+      "title": "National Research Programme on WHISPAs - workplace health and wellbeing initiatives that are free at the point of use to workplaces",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209391",
+      "title": "Development of PD PREDICT a prognostic blood based test for Parkinsons Disease",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209444",
+      "title": "HOLO-AIM : Holographic surgical guidance using Artificial Intelligence and Mixed reality for safer and more efficient Surgery",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209589",
+      "title": "The development and evaluation of a self-managed digital PROSPER (Prevention of Shoulder Problems) exercise and education programme for patients undergoing breast cancer treatment: increasing reach and uptake through digital technology",
+      "reason": "No explicit new interventional trial signal under the stated rule"
+    },
+    {
+      "award_id": "NIHR209618",
+      "title": "Cardiac Surgery Aftercare and Recovery Evaluation (CARE)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209668",
+      "title": "Feasibility of Body Identical Progesterone for treatment of endometriosis pain (BIP-4)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209858",
+      "title": "Evaluating allergy status following peanut oral immunotherapy in the NATASHA Randomised Controlled Trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208568",
+      "title": "Relational approach to working with young people who self-harm (RELATE-YP): A Feasibility Trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208593",
+      "title": "Improving policy and practice to promote and protect the emotional well-being of Unaccompanied Asylum Seeking Young People leaving care in England",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208603",
+      "title": "Co-located nurseries in care homes: exploring the impact of intergenerational practices on residents with dementia",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208620",
+      "title": "Apni Jung (our fight) against rheumatoid arthritis; fEasibility of an online Learning patient Education programme for improVing outcomes in pAtients from a minority eThnic background in England (ELEVATE)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208711",
+      "title": "Treating Unhelpful Suspicious Thoughts in teenagers (TRUST): A schools-based feasibility randomised controlled clinical trial for adolescents (16-18 years) with elevated paranoia",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208760",
+      "title": "A feasibility multicentre randomised controlled trial on miCRosurgical immediate lYmPhaTIC reconstruction to reduce risk of lymphoedema (CRYPTIC trial)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209129",
+      "title": "Building effective digital post-hospital discharge and reablement services for older adults in social care: a mixed methods process evaluation using the NASSS framework",
+      "reason": "No valid UK host postcode"
+    },
+    {
+      "award_id": "NIHR209140",
+      "title": "Leveraging Generative AI to Support People with Learning Disabilities in Their Daily Lives",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209170",
+      "title": "Co-design a Trauma Informed Care Intervention In Inpatient Mental Health Settings For Adults: Intervention Development",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209198",
+      "title": "Exploring risks for women who have a pregnancy after bariatric surgery to inform pregnancy and postnatal care needs",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209212",
+      "title": "Raman spectral imaging of surgical margins of basal cell carcinoma (BCC) treated by standard local excision",
+      "reason": "No explicit new interventional trial signal under the stated rule"
+    },
+    {
+      "award_id": "NIHR209219",
+      "title": "The co-creation and feasibility of a Health Visitor-led intervention, combining group exercise and behavioural activation approaches, which can be tailored for mothers at risk of postnatal depression",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209231",
+      "title": "Enhancing Empathy in Digital Consultations for Everyone (E-DiCE): Smiling through Digital Media",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209270",
+      "title": "Feasibility and acceptability of a remote community exercise and lifestyle change intervention in patients with smaller abdominal aortic aneurysms",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209321",
+      "title": "PRevention of Osteoporotic fractures Through Equitable Case finding and Treatment Support (PROTECTS)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209378",
+      "title": "OnchyMed: A First In Class Medical Device For Onychomycosis",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209408",
+      "title": "A software system for measuring hip displacement in children with cerebral palsy frompelvic radiographs",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209490",
+      "title": "CARE-PAC: The Care and Support System for Patients and Carers receiving palliative and end-of life-care",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209611",
+      "title": "Improving care for people prescribed gabapentinoids for persistent pain: building on the PROMPPT approach.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209840",
+      "title": "Assessing feasibility/acceptability of the Veteran Connection Programme (and trial) to enhance mental health amongst military veterans through social connectedness.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209910",
+      "title": "Exploring the acceptability, adoption and appropriateness of alcohol screening and brief intervention (ASBI) in perinatal mental health services (ADAPT)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR305070",
+      "title": "Training Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR305511",
+      "title": "Co-Design and Implementation of a Digital Self-Care Intervention to Improve Sexual and Reproductive Health among Youth in Zimbabwe (CoDe study)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR305556",
+      "title": "Pathways to equitable stroke care in Sierra Leone and South Africa",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306044",
+      "title": "Sedation from Antipsychotics (SoFA)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306314",
+      "title": "An Economic Model and Ethical Guide for Local Authority Investment in Social Connectedness to Prevent Care Needs",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306356",
+      "title": "A Personalised Approach to breathing support Treatments in sick CHildren (PATCH)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306468",
+      "title": "Co-development of a culturally and contextually sensitive community-based intervention to promote health and wellbeing in the asylum seeking and refugee community.",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306568",
+      "title": "“You’ve got to decide whether that’s worth it” – How can healthcare services better support older people and their families deciding whether or not to start potentially life-extending treatments?",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306606",
+      "title": "Making clinical trials more inclusive by using behavioural science to improve communication: COMMCLUSIVE",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306633",
+      "title": "Training Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306655",
+      "title": "NIHR Team Science Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500361",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500423",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500485",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500519",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500545",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500576",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500764",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500924",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR501255",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR502232",
+      "title": "PharmaBag: A Sustainable Packaging System to Reduce Pharmaceutical Waste and Support a Net-Zero NHS",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR502941",
+      "title": "Optimising footcare interventions for older adults living in care homes (OPINIONS)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR504156",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR504253",
+      "title": "Caffeine for Neuroprotection in Birth-Related Brain Injury",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR504616",
+      "title": "AI-enabled ECG to reduce demand for echocardiography and shorten diagnostic waiting lists",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR504861",
+      "title": "Systematic Assessment of Medical Utility of Radiology Artificial Intelligence - CT Head (SAMURAI-CT)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR506093",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR506326",
+      "title": "MyoCaid: A ventricular assist device for myocardial recovery",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR506442",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507502",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507745",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507753",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507769",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507773",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507799",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507820",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507946",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508398",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508520",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508530",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508585",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508612",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508651",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508987",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509083",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509303",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509372",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509488",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509507",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509577",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509653",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509890",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR510264",
+      "title": "From Frailty to Independence: Implementing a Digital Strength and Balance Platform in Care Homes",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510302",
+      "title": "Preventing progression to multimorbidity by digitising the psoriasis care pathway",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510342",
+      "title": "Do sensory rewards for heel strike reduce tip toe walking in young people",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510403",
+      "title": "INCLUDE-CKD: INCLUsive Digital carE for Chronic Kidney Disease",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510557",
+      "title": "Feasibility and acceptability of Recallify for self-management after brain injury",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510810",
+      "title": "BloodTrackR Usability and Concordance",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510816",
+      "title": "Preventing co-morbidity in paediatric insomnia: a community nurse-supported, home-based solution",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510823",
+      "title": "Early Digital CST for Dementia: Detecting Cognitive Decline to Prevent Frailty and Falls",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR512373",
+      "title": "Effectiveness, implementation and sustainability of Open Access Mental Health Support in Wales",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517284",
+      "title": "Quantum-enabled wearables for the diagnosis of consciousness in anaesthesia and PDoC",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517770",
+      "title": "Quantum enabled neuromodulation for memory enhancement",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR519992",
+      "title": "Rose NET evaluation of the Prevention Accelerators",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR521259",
+      "title": "The Use of Artificial Intelligence to Support Triage and Navigation in the NHS: a multi-method, rapid evaluation",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR152515",
+      "title": "A multicomponent evaluation of new restrictions on marketing of less healthy foods in England",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR163838",
+      "title": "East Africa AMR-STOP: Strategies for Tackling, Optimising and Preventing Environmental AMR (AfricaAMR-STOP)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR167384",
+      "title": "General Practice Additional Healthcare Professional (AdHP) Workplace-Based Learning (WPBL): A Realist Review with SWAR and Appreciative Inquiry to Co-Produce, Implement and Evaluate an AdHP-WPBL General Practice Toolbox. Short Title: 'GAP LEAP'",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR168786",
+      "title": "NIAMR: Developing and Evaluating a National Integrated Digital Data Capture and Sharing Platform for Enhanced Detection and Monitoring of Antimicrobial Resistance to Improve One Health AMR Surveillance and Management in Uganda",
+      "reason": "No valid UK host postcode"
+    },
+    {
+      "award_id": "NIHR169047",
+      "title": "A cluster randomized controlled trial of the clinical and cost effectiveness of Facilitated Access to Mutual Aid for adults with problem alcohol and drug use (FAMA).",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR169375",
+      "title": "Comparison of high frequency JET ventilation Versus conventional Intermittent Positive pressure ventilation on the effectiveness of catheter ablation for Atrial Fibrillation: a multicentre, double blinded, randomised controlled trial (JET-VIP AF)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR169529",
+      "title": "Improving Social Recovery in Psychosis (ISRIP): a definitive randomised controlled trial and process evaluation of Social Recovery Therapy compared to treatment as usual for people with psychosis and severe social disability",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR169769",
+      "title": "STRategies for the Identification, enrolment, attendance and retention of families into parenting interVentions in Early life (STRIVE)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR169789",
+      "title": "Process and outcomes evaluation of the NIHR Public Health Intervention Responsive Studies Teams (PHIRST) Scheme",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170057",
+      "title": "Accelerated cardiovascular magnetic resonance for the detection of coronary artery disease – a randomised controlled trial (ACCELERATE-CMR)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170552",
+      "title": "Supracondylar elbow fracture management in children - the SUPRAMAN study",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170907",
+      "title": "REgression in Left ventrIcular hypErtrophy and Fibrosis in Aortic Stenosis – a randomised controlled trial (RELIEF-AS)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR171489",
+      "title": "A sequential mixed method study to investigate, understand and find co-produced solutions to the use of restrictive practices in health settings when caring for children and young people with eating disorders.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174395",
+      "title": "Evaluating the implementation and uptake of Waking Saliva Cortisone: a new home-based test for Adrenal Insufficiency",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174677",
+      "title": "Strengths-based, low caseload approach to integrated health, housing and practical support for people experiencing homelessness with multiple complex needs in temporary shelters (hostels): a cluster randomised controlled trial [REACH trial]",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174726",
+      "title": "Creating Active Schools: investigating sustained implementation and long-term (cost)effectiveness on children’s physical activity in multi-ethnic and socioeconomically challenged communities in Bradford.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174753",
+      "title": "SHIFTS-UPF: Study on Health Impacts of Food Taxes and Subsidies affecting Ultra Processed Food",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR175082",
+      "title": "Acetabular Fractures in older patients Intervention Trial - Global (AceFIT-G)",
+      "reason": "Outside the past-year project-start window"
+    },
+    {
+      "award_id": "NIHR177982",
+      "title": "FORGE: Future-Oriented Reform of Generalist Education Evaluation",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR178000",
+      "title": "Public health strategies for first-episode psychosis: a systematic review of interventions and modifiable influences.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR207923",
+      "title": "Care bundle to improve postnatal care of women with hypertensive disorders of pregnancy for cardiovascular disease risk reduction (BundleCardio)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208084",
+      "title": "A mixed-methods study of the physical and psycho-cognitive effects of Chimeric Antigen Receptor T-cell (CAR-T) therapy, in UK adults and their caregivers, over time.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208140",
+      "title": "Single-test accuracy study to assess the diagnostic value of faecal calprotectin to diagnose necrotising enterocolitis in infants with heart defects",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208168",
+      "title": "Seeking Safety group intervention for complex post-traumatic stress disorder: a feasibility randomised controlled trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208186",
+      "title": "Temperature monitoring and mapping in ground emergency medical services (GEMS) and the Emergency Department: an observational study measuring thermal insults to patients, staff, drugs and equipment",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR156271",
+      "title": "Faecal Transplantation for Alcohol-Related Hepatitis",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR162467",
+      "title": "Efficacy, optimal targeting and mechanisms of a video feedback parent-infant intervention for mothers and birthing persons with severe or complex non-psychotic perinatal mental illness.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR165594",
+      "title": "Antifungals - Stopping Early with a Fungal Biomarker-based Stewardship Algorithm in Critical Care. (The A-Stop 2 Trial)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR168411",
+      "title": "Communication and Skills Intervention with Fathers (COSIE): A feasibility study",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR169017",
+      "title": "SCHEMA-Uganda: Strengthening Community Health and Epidemic Management in Uganda",
+      "reason": "No valid UK host postcode"
+    },
+    {
+      "award_id": "NIHR169127",
+      "title": "STEPFORWARD: A randomised controlled trial and economic evaluation of the impact of a hydraulic self-aligning ankle-foot on quality of life for patients with a below-knee amputation who have limited mobility",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170211",
+      "title": "RECOGNISED - RandomisEd controlled trial of COntinuous Glucose MoNItoring in the management and diagnosiS of GEstational Diabetes Mellitus - a multi centre randomised trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR170284",
+      "title": "A randomised placebo-controlled superiority trial of GLP-1 receptor agonist for the treatment of alcohol use disorder in people with chronic liver disease and obesity: Controlling Unhealthy Relationships with Both alcohol and obesity (CURB trial)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR171124",
+      "title": "Stopping or continuing RAS-inhibitor drugs before major elective non-cardiac surgery: SPACE II trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR171964",
+      "title": "Multimodal prehabilitation for frail patients undergoing total hip and knee replacement: The Joint PREP randomised controlled trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR173127",
+      "title": "Development and evaluation of adapted cognitive behaviour therapy for social anxiety disorder in autistic adults: a cluster randomised controlled trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR173364",
+      "title": "Natural Experimental Evaluation of increasing the Minimum Unit Price for alcohol in Scotland to 65p (NEEMUP65)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174159",
+      "title": "A mixed methods realist evaluation and economic appraisal of how health screening, education and prevention interventions in mosques impact the health and wellbeing of Muslim communities.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174454",
+      "title": "Mapping and realist evaluation of Lived Experience Recovery Organisations as part of the drug and alcohol treatment and recovery System in England (LEROS)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174496",
+      "title": "Evaluation of a virtual ward programme versus standard of care for patients with acute COPD exacerbations",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174567",
+      "title": "Empowering workplace self-management for individuals with long-term health conditions and health-related disabilities: a randomised controlled feasibility trial of the 'Co-Manage' intervention compared with usual workplace support.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174675",
+      "title": "Evaluating the mental health-related outcomes of food bank advice services for people with unmanageable debt who are in or near destitution",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR174974",
+      "title": "Enhancing Reproductive Health in Women’s Prisons: Evidence to Inform Equitable, Person-Centred Care",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR203637",
+      "title": "Image guided laparoscopic liver resection: a feasibility randomised controlled trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208155",
+      "title": "Feasibility of a Community-Based Aquatic Exercise and Peer Support Intervention (Good Boost+) for Adults on Knee Replacement Waiting Lists: A Randomised Hybrid Type 1 Effectiveness-Implementation Feasibility Trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208596",
+      "title": "Waiting Well in Social Care",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208655",
+      "title": "A qualitative investigation of the barriers and facilitators to managing hearing loss for older adults living with frailty",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208758",
+      "title": "Managing Treatment eXperience (MTX): Developing psychoeducational resources for children with rheumatic conditions who are taking methotrexate",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208812",
+      "title": "Targeting interventions to optimise school-age outcomes for children with hearing loss in a population with new-born screening",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR208880",
+      "title": "Personalised prevention of breast cancer in people at moderate or high risk– a new approach to optimising prevention in primary care.",
+      "reason": "No explicit new interventional trial signal under the stated rule"
+    },
+    {
+      "award_id": "NIHR208889",
+      "title": "Implementation of Day-case Hip and Knee Arthroplasty ensuring Optimal Patient Experience and Outcomes.(IDAPO)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209101",
+      "title": "A Realist synthesis and evaluation of how mainstream smart home technologies can support independent living for disabled people: understanding what works for whom, in what circumstances, and why",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209117",
+      "title": "Turn down the noise: Reducing noise and supporting people with dementia and hearing loss in social care settings",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209121",
+      "title": "Embedding TEchnology in Care Homes (ETECH)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209142",
+      "title": "Using Artificial Intelligence to Improve the Use of Evidence in Social Work Practice: A Rapid-Cycle Development Project",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209197",
+      "title": "ASSIST: A randomised feasibility trial to assess the Acceptability of a remouldable Socket System in the Immediate rehabilitation phase of people with a tranSTibial amputation",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209225",
+      "title": "Modelling the cost-effectiveness of early term induction of labour to prevent shoulder dystocia for fetuses suspected to be large for gestational age and/or macrosomic (Big Baby 3)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209547",
+      "title": "Prison, resettlement and domestic abuse: a qualitative study to explore women's experiences and needs to enhance practice and policy",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209564",
+      "title": "Feasibility RCT of the serious game ‘Broodles’ for siblings of children with learning disabilities",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209588",
+      "title": "Novel Integrated Health and Social Care Data Enabling Earlier Detection of COPD and Intervention Delivery Through Optimised Care Pathways",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209602",
+      "title": "Co-development of ‘Kangaroo Mother Care’ interventions in NHS hospitals to improve breastfeeding for infants born late preterm",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209613",
+      "title": "Informing the Design of a Computerised Decision Support Tool for Falls Risk Assessment: Exploring Modifiable Risk Factors and Data Availability in Acute Hospitals",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209751",
+      "title": "The association between prescribed hormonal contraception and the risk of MS in England.",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209765",
+      "title": "MINDS: Intervention for identifying mental health problems in autistic/ADHD adults in primary care",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR209767",
+      "title": "Supporting the Mental Health of Children through Stix Innovation: A Feasibility Trial",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR305959",
+      "title": "Better assessment of post-traumatic stress in autistic adults",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306060",
+      "title": "Current guideline-based care supported by a physiotherapist versus provision of a high-quality information leaflet and a single advice session delivered by a physiotherapist for people with shoulder osteoarthritis: A pilot randomised controlled trial with embedded qualitative study.",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306062",
+      "title": "COMPANION: Co-production of a decision tool for people with advanced cancer considering home parenteral nutrition",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306078",
+      "title": "The Co-Development and Feasibility of an Interstitial Lung Disease (ILD) Fatigue and Breathlessness (‘FAB’) Programme using the Medical Research Council (MRC) Framework for Complex Interventions: A Theory-Based, Mixed-Method Study",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306430",
+      "title": "DEPrescribing In peopLe Living with advanced Chronic Kidney Disease (DEPILL-CKD): understanding patterns and outcomes",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306615",
+      "title": "Emergency Department Coding Practices for People in Suicidal Crisis.",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306656",
+      "title": "NIHR Team Science Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR306699",
+      "title": "Training Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500096",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500143",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500283",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500312",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500359",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500427",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500437",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500477",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500556",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500579",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500636",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500665",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR500716",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR501279",
+      "title": "Treating auditory impairment to preserve cognition in people with mild cognitive impairment",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR501324",
+      "title": "NIHR Predoctoral Award",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR502152",
+      "title": "WP1 - Adult Early Phase 5G platform",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR502893",
+      "title": "CHOICES-HI: Hospital-Initiated Social Prescribing for Children and Young People",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR503119",
+      "title": "Can imaging of airway dynamics optimise assisted coughing in children with spinal muscular atrophy?",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR503216",
+      "title": "Developing MRI Epilepsy Lesion Detection (MELD) software for clinical use",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR503515",
+      "title": "Intelligent Navigation using AI to bust waiting times for urgent healthcare (INA)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR504295",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR504569",
+      "title": "Scalable Medical AI for Radiology Transformation – X-Ray (SMART-XR)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR506276",
+      "title": "NIHR Development and Skills Enhancement Award (DSE)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507050",
+      "title": "Community Appointment Days vs Standard Physiotherapy for People with a Musculoskeletal Condition",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR507548",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507550",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507552",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507763",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507775",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR507846",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508648",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508848",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508866",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR508980",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509078",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509126",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509200",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509569",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509673",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR509688",
+      "title": "NIHR Senior Investigators (SI)",
+      "reason": "Training award, not a research project"
+    },
+    {
+      "award_id": "NIHR510229",
+      "title": "AI‑Augmented Falls & Frailty Prevention Pathway (AIFP)",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510280",
+      "title": "Summative Usability Study of Sensore: pressure ulcer monitoring & prevention for wheelchair users",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510479",
+      "title": "Community Prehabilitation for Cancer: Validating an Adaptive Symptom Tracker within PreActiv",
+      "reason": "No explicit new interventional trial signal under the stated rule"
+    },
+    {
+      "award_id": "NIHR510643",
+      "title": "Jam Up!: health economic and health inequality impacts",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR510914",
+      "title": "",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR514756",
+      "title": "FOCUS-NHS: A Framework for mOnitoring and improving Clinical Use of bioSimilars across the NHS",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517225",
+      "title": "Quantum Imaging with Undetected Photons for Breast Cancer Treatment Decision Support",
+      "reason": "No explicit new interventional trial signal under the stated rule"
+    },
+    {
+      "award_id": "NIHR517237",
+      "title": "Detection of sleep states using machine learning in optically pumped magnetoencephalography",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517481",
+      "title": "Quantum sensing to detect neurophysiological signatures of early Alzheimer’s disease",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517586",
+      "title": "Quantum OCT For Home & Community Based Imaging Of Children's Eyes",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517606",
+      "title": "Precise Detection of High-Risk Chronic Liver Disease using Diamond Quantum Sensing",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR517626",
+      "title": "Quantum-enabled Single-cell Mitochondrial Sensing for Rheumatoid Arthritis Therapy Stratification",
+      "reason": "No explicit oncology term in the project title"
+    },
+    {
+      "award_id": "NIHR177965",
+      "title": "Transfer and Implementation of New Beginnings - Stockport to Tameside",
+      "reason": "No explicit oncology term in the project title"
+    }
+  ],
+  "rows": [
+    {
+      "award_id": "NIHR510518",
+      "title": "SONiC-LIVER: Study Of Non-invasive Cavitation Histotripsy Therapy for Liver Cancers",
+      "organisation": "University of Leeds",
+      "investigators": "Professor Tze Min Wah",
+      "award_gbp": 6189274.35,
+      "project_start": "2026-06-01",
+      "project_end": "2031-05-31",
+      "award_status": "Active",
+      "programme": "Health Technology Assessment",
+      "postcode": "LS2 9JT",
+      "source_url": "https://fundingawards.nihr.ac.uk/award/NIHR510518",
+      "trial_evidence": "patients? Research Plan We will research Histotripsy. We will do something called a clinical trial. A clinical trial is a type of experiment. It is really carefully planned so that we can answer the above questions. We will run the clinic",
+      "multisite_evidence": "We will run the clinical trial in 6 hospitals in the UK.",
+      "named_lead_point": 1,
+      "recent_start_point": 1,
+      "multisite_point": 1,
+      "score": 3,
+      "registry_ids_in_award": [],
+      "registry_links": [],
+      "registry_check": "No identifier-linked record found; recruitment status unverified",
+      "rank": 1
+    },
+    {
+      "award_id": "NIHR175280",
+      "title": "BACBONE: Bracing for spinal bone disease in newly diagnosed myeloma: A phase III randomised controlled trial",
+      "organisation": "University of Leeds",
+      "investigators": "Dr Christopher Parrish / Dr Stella Bowcock",
+      "award_gbp": 2875482.47,
+      "project_start": "2026-05-01",
+      "project_end": "2031-04-30",
+      "award_status": "Contracted",
+      "programme": "Health Technology Assessment",
+      "postcode": "LS2 9JT",
+      "source_url": "https://fundingawards.nihr.ac.uk/award/NIHR175280",
+      "trial_evidence": "BACBONE: Bracing for spinal bone disease in newly diagnosed myeloma: A phase III randomised controlled trial",
+      "multisite_evidence": "Methods: Phase III, Multicentre, randomised controlled trial with centralised spinal multidisciplinary team (MDT) eligibility review, national orthotics delivery and embed",
+      "named_lead_point": 1,
+      "recent_start_point": 0,
+      "multisite_point": 1,
+      "score": 2,
+      "registry_ids_in_award": [],
+      "registry_links": [],
+      "registry_check": "No identifier-linked record found; recruitment status unverified",
+      "rank": 2
+    },
+    {
+      "award_id": "NIHR504024",
+      "title": "SWIFT LUNG - Streamlined Workflow for Investigation and Fast Tracking Lung Cancer Diagnosis",
+      "organisation": "NHS GREATER GLASGOW AND CLYDE",
+      "investigators": "Dr Mark Hall / Professor David Lowe",
+      "award_gbp": 1704121.0,
+      "project_start": "2026-04-01",
+      "project_end": "2029-03-31",
+      "award_status": "Active",
+      "programme": "Invention for Innovation",
+      "postcode": "G12 0XH",
+      "source_url": "https://fundingawards.nihr.ac.uk/award/NIHR504024",
+      "trial_evidence": "e clinical risk-scoring tools (Mayo and Brock models). We propose SWIFT-Lung: a prospective, stepped-wedge clinical trial across 3 NHS sites across England and Scotland (NHS Highlands, NHS Greater Glasgow and Clyde and Oxford University Hospitals). It will inco",
+      "multisite_evidence": "WIFT-Lung: a prospective, stepped-wedge clinical trial across 3 NHS sites across England and Scotland (NHS Highlands, NHS Greater Glasgow and Clyde and Oxford University Hospitals).",
+      "named_lead_point": 1,
+      "recent_start_point": 0,
+      "multisite_point": 1,
+      "score": 2,
+      "registry_ids_in_award": [],
+      "registry_links": [],
+      "registry_check": "No identifier-linked record found; recruitment status unverified",
+      "rank": 3
+    },
+    {
+      "award_id": "NIHR501826",
+      "title": "TarGeT (TARGETED PEDIATRIC HIGH-GRADE GLIOMA THERAPY) Phase 2 Umbrella Trial",
+      "organisation": "University of Birmingham",
+      "investigators": "",
+      "award_gbp": 5165004.99,
+      "project_start": "2026-09-01",
+      "project_end": "2036-08-31",
+      "award_status": "Active",
+      "programme": "NIHR",
+      "postcode": "B15 2TT",
+      "source_url": "https://fundingawards.nihr.ac.uk/award/NIHR501826",
+      "trial_evidence": "TarGeT (TARGETED PEDIATRIC HIGH-GRADE GLIOMA THERAPY) Phase 2 Umbrella Trial",
+      "multisite_evidence": "(TARGETED PEDIATRIC HIGH-GRADE GLIOMA THERAPY) Phase 2 Umbrella Trial",
+      "named_lead_point": 0,
+      "recent_start_point": 1,
+      "multisite_point": 1,
+      "score": 2,
+      "registry_ids_in_award": [],
+      "registry_links": [],
+      "registry_check": "No identifier-linked record found; recruitment status unverified",
+      "rank": 4
+    },
+    {
+      "award_id": "NIHR501825",
+      "title": "EPILOGUE- Phase I/II combination umbrella trial in relapsed pediatric low-grade glioma",
+      "organisation": "University of Birmingham",
+      "investigators": "",
+      "award_gbp": 1196039.8,
+      "project_start": "2026-09-01",
+      "project_end": "2032-02-29",
+      "award_status": "Active",
+      "programme": "NIHR",
+      "postcode": "B15 2TT",
+      "source_url": "https://fundingawards.nihr.ac.uk/award/NIHR501825",
+      "trial_evidence": "EPILOGUE- Phase I/II combination umbrella trial in relapsed pediatric low-grade glioma",
+      "multisite_evidence": "EPILOGUE- Phase I/II combination umbrella trial in relapsed pediatric low-grade glioma",
+      "named_lead_point": 0,
+      "recent_start_point": 1,
+      "multisite_point": 1,
+      "score": 2,
+      "registry_ids_in_award": [],
+      "registry_links": [],
+      "registry_check": "No identifier-linked record found; recruitment status unverified",
+      "rank": 5
+    },
+    {
+      "award_id": "NIHR172122",
+      "title": "PRostatEctomy Surgery In Disseminated metastatic hormone sensitive prostate cancer with Endpoint assessment using Nuclear imaging Technology using PSMA PET/CT: a randomised controlled full trial (PRESIDENT)",
+      "organisation": "University of Oxford",
+      "investigators": "Professor Dr Prasanna Sooriakumaran",
+      "award_gbp": 2998348.94,
+      "project_start": "2026-04-01",
+      "project_end": "2033-01-31",
+      "award_status": "Active",
+      "programme": "Health Technology Assessment",
+      "postcode": "OX1 2JD",
+      "source_url": "https://fundingawards.nihr.ac.uk/award/NIHR172122",
+      "trial_evidence": "PRostatEctomy Surgery In Disseminated metastatic hormone sensitive prostate cancer with Endpoint assessment using Nuclear imaging Technology using PSMA PET/CT: a randomised controlled full trial (PRESIDENT)",
+      "multisite_evidence": "",
+      "named_lead_point": 1,
+      "recent_start_point": 0,
+      "multisite_point": 0,
+      "score": 1,
+      "registry_ids_in_award": [],
+      "registry_links": [],
+      "registry_check": "No identifier-linked record found; recruitment status unverified",
+      "rank": 6
+    },
+    {
+      "award_id": "NIHR209472",
+      "title": "Prototype validation and exploratory first-in-human pilot of an implantable Electric Field Therapy device for recurrent glioblastoma: iterative clinical safety assessment (IDEAL 0/1 study)",
+      "organisation": "QV Bioelectronics Ltd",
+      "investigators": "Dr Richard Fu",
+      "award_gbp": 1206498.0,
+      "project_start": "2026-01-01",
+      "project_end": "2028-03-31",
+      "award_status": "Active",
+      "programme": "Invention for Innovation",
+      "postcode": "SK10 4TG",
+      "source_url": "https://fundingawards.nihr.ac.uk/award/NIHR209472",
+      "trial_evidence": "Prototype validation and exploratory first-in-human pilot of an implantable Electric Field Therapy device for recurrent glioblastoma: iterative clinical safety assessment (IDEAL 0/1 study)",
+      "multisite_evidence": "",
+      "named_lead_point": 1,
+      "recent_start_point": 0,
+      "multisite_point": 0,
+      "score": 1,
+      "registry_ids_in_award": [],
+      "registry_links": [],
+      "registry_check": "No identifier-linked record found; recruitment status unverified",
+      "rank": 7
+    }
+  ],
+  "top_organisation_award_ids": [
+    "NIHR510518",
+    "NIHR504024",
+    "NIHR172122"
+  ],
+  "quality_sample_award_ids": [
+    "NIHR209472",
+    "NIHR510518",
+    "NIHR504024",
+    "NIHR501826",
+    "NIHR501825",
+    "NIHR172122",
+    "NIHR175280"
+  ],
+  "registry_query": "NIHR501825 OR NIHR510518 OR NIHR172122 OR NIHR209472 OR NIHR504024 OR NIHR175280 OR NIHR501826",
+  "registry_urls": [
+    "https://clinicaltrials.gov/api/v2/studies?query.term=NIHR501825+OR+NIHR510518+OR+NIHR172122+OR+NIHR209472+OR+NIHR504024+OR+NIHR175280+OR+NIHR501826&format=json&countTotal=true&pageSize=100",
+    "https://www.isrctn.com/api/query/format/default?q=NIHR501825+OR+NIHR510518+OR+NIHR172122+OR+NIHR209472+OR+NIHR504024+OR+NIHR175280+OR+NIHR501826&limit=100"
+  ],
+  "rules": {
+    "oncology_title_regex": "\\b(?:cancers?|oncolog\\w*|gliomas?|glioblastoma\\w*|leuk\\w*|leukaem\\w*|lymphomas?|myelomas?|tumours?|tumors?|carcinomas?|sarcomas?|melanomas?|neoplasms?)\\b",
+    "excluded_title_regex": "follow[ -]?up|meta[ -]?analysis|synthesis|systematic review|\\bconsortium\\b",
+    "trial_title_regex": "\\btrial\\b|first[ -]in[ -]human",
+    "prospective_abstract_regex": "\\bwe will (?:do|run|conduct|undertake)\\b.{0,100}?\\bclinical trial\\b|\\b(?:we propose|design and methods)\\b.{0,100}?\\bprospective\\b.{0,80}?\\btrial\\b",
+    "multisite_regex": "\\bmulti[ -]?(?:centre|center)\\b|\\bumbrella\\b|\\bacross\\s+\\d+\\s+(?:NHS\\s+|UK\\s+)?(?:sites|hospitals)\\b|\\bin\\s+\\d+\\s+hospitals\\s+in\\s+the\\s+UK\\b",
+    "later_study_exclusion_regex": "\\bwould follow\\b|\\bfollow-on\\b|\\bfuture\\b|\\bsubsequent\\b|\\bnext phase\\b"
+  },
+  "limitations": [
+    "Project start dates are contract dates, not funding announcement or recruitment dates.",
+    "NIHR metadata describes coverage to 31 March 2026; the file was modified in October and contains later contracted starts. Treat as a lagged funding snapshot, not all recent awards.",
+    "Award values are original project funding, not unspent funds, software budgets or revenue available to Cori.",
+    "Title filtering favours precision and misses cancer trials whose titles do not name the disease.",
+    "Registry checks use exact identifiers, not fuzzy title matching; absent links do not mean unregistered or not yet recruiting.",
+    "A funded project does not establish demand, procurement authority, current suppliers, or an intention to buy software.",
+    "Named investigators are research contacts, not verified purchasing decision-makers. No email address is inferred.",
+    "The host organisation postcode establishes UK hosting, not the countries of every trial site."
+  ]
+}

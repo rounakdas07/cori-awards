@@ -1,0 +1,5 @@
+.cache/
+.openai/
+dist/
+__pycache__/
+.venv/
